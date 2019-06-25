@@ -23,7 +23,7 @@ public:
 
 template<class cQType>
 bool cirQueue<cQType>::isFull(){
-    if (fullOrEmpty==4)     return true;
+    if (fullOrEmpty==M)     return true;
     else return false;
 }
 
