@@ -72,11 +72,11 @@ void cirQueue<cQType>::display(){
     }
     else if(head>=tail){
         for(int i=tail; i<=head; i++)
-            cout<<cirQ[i]<<"\t";
+            cout<<cirQ[i]<<'\t';
     }
     else{
         for(int i=head; i<=tail; i++)
-            cout<<cirQ[i]<<"\t";
+            cout<<cirQ[i]<<'\t';
     }
     cout<<endl;
 }
